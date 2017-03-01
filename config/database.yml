@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: amusementconnect_production
-  username: amusementconnect
+  username: aconnect
   password: <%= ENV['AMUSEMENTCONNECT_DATABASE_PASSWORD'] %>
