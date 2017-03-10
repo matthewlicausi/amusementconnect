@@ -17,6 +17,8 @@ gem 'puma', '~> 3.0'
 gem 'unicorn'
 gem 'thin'
 
+gem 'newrelic_rpm'
+
 gem 'passenger'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
